@@ -9,7 +9,7 @@ from itemadapter import ItemAdapter
 from pymongo import MongoClient
 
 
-class NewsPipeline:
+class QuotesPipeline:
     def __init__(self) -> None:
         self.conn = MongoClient(
             'localhost',
